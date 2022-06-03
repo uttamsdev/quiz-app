@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <link rel="stylesheet" href="css/style.css">
     <title>Quiz App</title>
 </head>
@@ -22,48 +23,48 @@
                 <input class="form-check-input me-1 mb-2" type="radio" name="quiz1" id="" value="javascript"> JavaScript
             </div>
             <div>
-                <p class="qsn">2. Inside which HTML element do we put the JavaScript? </p>
-                <input class="form-check-input me-1 mb-2" type="radio" name="quiz1" id="" value="true">True<br>
-                <input class="form-check-input me-1 mb-2" type="radio" name="quiz1" id="" value="false"> False <br>
+                <p class="qsn">2. We can use JavaScript inside an HTML file? </p>
+                <input class="form-check-input me-1 mb-2" type="radio" name="quiz2" id="" value="true">True<br>
+                <input class="form-check-input me-1 mb-2" type="radio" name="quiz2" id="" value="false"> False <br>
             </div>
             <div>
                 <p class="qsn">3. How do you write "Hello World" in an alert box?</p>
-                <input class="form-check-input me-1 mb-2" type="radio" name="quiz1" id="" value="alert">alter("Hello World")<br>
-                <input class="form-check-input me-1 mb-2" type="radio" name="quiz1" id="" value="alertBox"> alertBox("Hello World") <br>
-                <input class="form-check-input me-1 mb-2" type="radio" name="quiz1" id="" value="msg"> msg("Hello World") <br>
-                <input class="form-check-input me-1 mb-2" type="radio" name="quiz1" id="" value="msgBox"> msgBox("Hello World")
+                <input class="form-check-input me-1 mb-2" type="radio" name="quiz3" id="" value="alert">alter("Hello World")<br>
+                <input class="form-check-input me-1 mb-2" type="radio" name="quiz3" id="" value="alertBox"> alertBox("Hello World") <br>
+                <input class="form-check-input me-1 mb-2" type="radio" name="quiz3" id="" value="msg"> msg("Hello World") <br>
+                <input class="form-check-input me-1 mb-2" type="radio" name="quiz3" id="" value="msgBox"> msgBox("Hello World")
             </div>
             <div>
                 <p class="qsn">4. How do you create a function in JavaScript?</p>
-                <input class="form-check-input me-1 mb-2" type="radio" name="quiz1" id="" value="function1">function = myFunction()<br>
-                <input class="form-check-input me-1 mb-2" type="radio" name="quiz1" id="" value="function2">function myFunction() <br>
-                <input class="form-check-input me-1 mb-2" type="radio" name="quiz1" id="" value="function3"> function:myFunction() <br>
-                <input class="form-check-input me-1 mb-2" type="radio" name="quiz1" id="" value="function4"> function => function()
+                <input class="form-check-input me-1 mb-2" type="radio" name="quiz4" id="" value="function1">function = myFunction()<br>
+                <input class="form-check-input me-1 mb-2" type="radio" name="quiz4" id="" value="function2">function myFunction() <br>
+                <input class="form-check-input me-1 mb-2" type="radio" name="quiz4" id="" value="function3"> function:myFunction() <br>
+                <input class="form-check-input me-1 mb-2" type="radio" name="quiz4" id="" value="function4"> function => function()
             </div>
             <div>
                 <p class="qsn">5. How do you call a function named "myFunction"?</p>
-                <input class="form-check-input me-1 mb-2" type="radio" name="quiz1" id="" value="call1">call function myFunction()<br>
-                <input class="form-check-input me-1 mb-2" type="radio" name="quiz1" id="" value="call2"> call myFunction() <br>
-                <input class="form-check-input me-1 mb-2" type="radio" name="quiz1" id="" value="call3"> myFunction() <br>
-                <input class="form-check-input me-1 mb-2" type="radio" name="quiz1" id="" value="call4"> myFunction <br>
+                <input class="form-check-input me-1 mb-2" type="radio" name="quiz5" id="" value="call1">call function myFunction()<br>
+                <input class="form-check-input me-1 mb-2" type="radio" name="quiz5" id="" value="call2"> call myFunction() <br>
+                <input class="form-check-input me-1 mb-2" type="radio" name="quiz5" id="" value="call3"> myFunction() <br>
+                <input class="form-check-input me-1 mb-2" type="radio" name="quiz5" id="" value="call4"> myFunction <br>
             </div>
             <div>
                 <p class="qsn">6. How to write an IF statement in JavaScript?</p>
-                <input class="form-check-input me-1 mb-2" type="radio" name="quiz1" id="" value="if1"> if(i==5)<br>
-                <input class="form-check-input me-1 mb-2" type="radio" name="quiz1" id="" value="if2"> if i == 5 then <br>
-                <input class="form-check-input me-1 mb-2" type="radio" name="quiz1" id="" value="if3"> if i = 5 <br>
-                <input class="form-check-input me-1 mb-2" type="radio" name="quiz1" id="" value="if4"> if i = 5 then
+                <input class="form-check-input me-1 mb-2" type="radio" name="quiz6" id="" value="if1"> if(i==5)<br>
+                <input class="form-check-input me-1 mb-2" type="radio" name="quiz6" id="" value="if2"> if i == 5 then <br>
+                <input class="form-check-input me-1 mb-2" type="radio" name="quiz6" id="" value="if3"> if i = 5 <br>
+                <input class="form-check-input me-1 mb-2" type="radio" name="quiz6" id="" value="if4"> if i = 5 then
             </div>
             <div>
                 <p class="qsn">7. How to write an IF statement for executing some code if "i" is NOT equal to 5?</p>
-                <input class="form-check-input me-1 mb-2" type="radio" name="quiz1" id="" value="if1">if(<>)<br>
-                <input class="form-check-input me-1 mb-2" type="radio" name="quiz1" id="" value="if2"> if i <> 5 then <br>
-                <input class="form-check-input me-1 mb-2" type="radio" name="quiz1" id="" value="if3"> if i != 5 then <br>
-                <input class="form-check-input me-1 mb-2" type="radio" name="quiz1" id="" value="if4"> if(i !=5)
+                <input class="form-check-input me-1 mb-2" type="radio" name="quiz7" id="" value="if1">if(<>)<br>
+                <input class="form-check-input me-1 mb-2" type="radio" name="quiz7" id="" value="if2"> if i <> 5 then <br>
+                <input class="form-check-input me-1 mb-2" type="radio" name="quiz7" id="" value="if3"> if i != 5 then <br>
+                <input class="form-check-input me-1 mb-2" type="radio" name="quiz7" id="" value="if4"> if(i !=5)
             </div>
         </div>
     </div>
-    <button id="submit">Submit</button>
+    <button class="btn btn-primary d-block mx-auto px-5 mb-5 mt-4" id="submit">Submit</button>
     <script src="js/app.js"></script>
 </body>
 </html>
