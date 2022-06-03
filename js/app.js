@@ -49,6 +49,15 @@ document.getElementById("submit").addEventListener("click", () => {
   }
   console.log(selectArray);
 
+  if(selectArray.length != 7){
+    Swal.fire({
+      icon: 'error',
+      title: 'Oops...',
+      text: 'Please answer all the questions'
+    })
+    return;
+  }
+
   for(let i = 0; i <result.length; i++){
     if(result[i] === selectArray[i]){
       count++;
@@ -56,7 +65,7 @@ document.getElementById("submit").addEventListener("click", () => {
   }
   Swal.fire({
     title: `Your Score is: ${count}/${result.length}`,
-    imageUrl: 'https://webstockreview.net/images/competition-clipart-congratulation.png',
+    imageUrl: '../images/cong.png',
     width: 600,
     padding: '3em',
     color: '#716add',
