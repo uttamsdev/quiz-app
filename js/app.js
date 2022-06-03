@@ -55,17 +55,22 @@ document.getElementById("submit").addEventListener("click", () => {
     }
   }
   Swal.fire({
-    title: `Congratulations Your Score is: ${count}/${result.length}`,
+    title: `Your Score is: ${count}/${result.length}`,
+    imageUrl: 'https://webstockreview.net/images/competition-clipart-congratulation.png',
     width: 600,
     padding: '3em',
     color: '#716add',
-    background: '#fff url(/images/trees.png)',
+    background: '#fff url()',
     backdrop: `
       rgba(0,0,123,0.4)
-      url("/images/nyan-cat.gif")
+      url("../images/runningCat.gif")
       left top
       no-repeat
     `
+  }).then((result) => {
+    if (result.isConfirmed) {
+      location.reload();
+    }
   })
   console.log('your score', count);
 });
