@@ -20,7 +20,7 @@ body {
 body::after {
   content: "";
   position: absolute;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.9);
   top: 0;
   left: 0;
   width: 100%;
@@ -28,7 +28,7 @@ body::after {
   z-index: -1;
 }
 .heading {
-  color: rgb(217, 255, 0.9) !important;
+  color: rgb(217, 255, 0.95) !important;
 }
 .qsn {
   font-weight: 600;
@@ -36,7 +36,7 @@ body::after {
   margin-top: 40px;
   padding-top: 18px !important;
   margin-bottom: 8px;
-  color: rgba(217, 255, 0, 0.924) !important;
+  color: rgba(217, 255, 0, 0.95) !important;
   /* background-color: rebeccapurple; */
 }
 .qsn-container {
@@ -48,13 +48,14 @@ p {
 }
 .container {
   width: 600px;
-  background-color: rgba(230, 8, 8, 0.891);
+  background-color: rgba(231, 18, 18, 0.4);
   border-radius: 20px;
   padding: 0px 30px;
   margin-bottom: 20px;
   color: rgb(255, 255, 255) !important;
   box-sizing: border-box;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding-bottom: 20px;
 }
 span {
   color: white !important;

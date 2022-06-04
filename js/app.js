@@ -65,14 +65,14 @@ document.getElementById("submit").addEventListener("click", () => {
   }
   Swal.fire({
     title: `Your Score is: ${count}/${result.length}`,
-    imageUrl: '../images/cong.png',
+    imageUrl: 'https://i.postimg.cc/Vk9R4fWY/cong.png',
     width: 600,
     padding: '3em',
     color: '#716add',
     background: '#fff url()',
     backdrop: `
       rgba(0,0,123,0.4)
-      url("../images/runningCat.gif")
+      url("https://i.ibb.co/Hdq1F7G/running-Cat.gif")
       left top
       no-repeat
     `
