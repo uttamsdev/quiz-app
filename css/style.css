@@ -19,7 +19,7 @@ body {
 body::after {
   content: "";
   position: absolute;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.6);
   top: 0;
   left: 0;
   width: 100%;
@@ -30,16 +30,16 @@ body::after {
   margin-top: -30px;
   margin-bottom: 15px !important;
   padding: 18px 0px;
-  color: rgb(1, 175, 255) !important;
-  background-color: rgb(32, 31, 31) !important;
+  color: rgb(255, 255, 255) !important;
+  background-color: rgba(45, 20, 20, 0.52) !important;
 }
 .qsn {
   font-weight: bolder;
-  font-size: 22px;
+  font-size: 21px;
   margin-top: 40px;
   padding-top: 18px !important;
   margin-bottom: 8px;
-  color: rgba(23, 23, 237, 0.785) !important;
+  color: rgba(0, 0, 255, 0.854) !important;
 }
 .qsn-container {
   display: grid;
@@ -51,7 +51,7 @@ p {
 }
 span{
   font-weight: 500 !important;
-  font-size: 20px !important;
+  font-size: 18px !important;
 }
 .container {
   width: 700px;
@@ -71,5 +71,11 @@ span{
   }
   .container {
     width: 100%;
+  }
+  .qsn{
+    font-size: 16px;
+  }
+  span{
+    font-size: 14px !important;
   }
 }
